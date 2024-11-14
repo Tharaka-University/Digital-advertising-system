@@ -1,0 +1,72 @@
+body{
+    background-image: url(back.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1900px 950px;
+    background-position: fixed;
+}
+
+
+.blur-blackground{
+backdrop-filter: blur(5px);
+height: 1000px;
+margin-top: -10px;
+}
+
+
+#date{
+    background-color: white;
+    color: black;
+    font-size: 40px;
+}
+
+#year{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+
+.link{
+    display: flex;
+}
+
+
+.image{
+    width: 600px;
+    overflow: hidden;
+   margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 15px;
+
+}
+
+.images{
+    height: 500px;
+    width: 600px;
+    overflow: hidden;
+   margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 15px;
+
+}
+
+.image img{
+    padding-right: 200px;
+    width: 700px;
+}
+
+
+.images img{
+    padding-right: 200px;
+    width: 700px;
+}
+
+.images p{
+    margin-top: -1000px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.image p{
+    margin-top: -80px;
+    font-size: 30px;
+}

@@ -1,0 +1,21 @@
+body{
+  background-color: #86816B;
+}
+
+.container{
+ width: 1400px;
+ margin-left: 100px;
+}
+
+.kichwa{
+  display: flex;
+}
+
+a:link{
+  color: black;
+}
+
+.link{
+  padding-left: 20px;
+  text-decoration: none;
+}

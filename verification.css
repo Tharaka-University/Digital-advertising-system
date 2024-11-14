@@ -1,0 +1,122 @@
+body{
+	background-image: url(back.jpeg);
+	background-repeat: no-repeat;
+	background-size: 1900px 999px;
+}
+
+#date{
+	background-color: white;
+	color: black;
+	font-size: 40px;
+}
+
+#year{
+	background-color: black;
+	color: white;
+	font-size: 40px;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	width: 600px;
+	margin-left: 500px;
+}
+
+.login{
+	height: 290px;
+	width: 290px;
+	background-image: url(sexycat.jpeg);
+	background-size: 36vh 37vh;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	border: none;
+	color: white;
+	font-weight: 700;	
+	font-size: 30px; 
+
+
+}
+
+.signup{
+	height: 290px;
+	width: 290px;
+	background-image: url(madcat.jpeg);
+	background-size: 37vh 40vh;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	border: none;
+	color: white;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+#support{
+	background-color: rgba(255, 255, 255, 0.16);
+	border: none;
+	backdrop-filter: blur(5px);
+	justify-content: center;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	border-radius: 10px;
+	top: 200px;
+	height: 300px;
+}
+
+#boom{
+	background-color: rgba(255, 255, 255, 0.16);
+	border: none;
+	backdrop-filter: blur(5px);
+	justify-content: center;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	border-radius: 10px;
+	top: 200px;
+	height: 350px;
+}
+
+
+
+
+ .inputelement{
+ 	margin-top: 20px;
+ 	justify-content: center;
+ }
+
+.footer{
+	margin-top: 250px;
+	text-align: right;
+	font-family: 'Bahnschrift SemiBold Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 50px;
+	color: black;
+	height: 290px;
+	backdrop-filter: blur(5px);
+	width: 250px;
+	float: right;
+}
+
+form{
+	width: 400px;
+	align-content: center;
+	height: 200px;
+	color: #E66600;
+	font-size: 30px;
+	margin-left: 50px;
+}
+
+
+
+label{
+	color: #E66600;
+}
+
+input{
+	color: #E66600;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.16);
+	backdrop-filter: blur(5px);
+	border-bottom: 2px solid white;
+	width: 300px;
+}
